@@ -1,0 +1,19 @@
+{
+  "name": "rockoffee",
+  "version": "1.0.0",
+  "description": "Rockoffee is a web template for coffee shop with rock scene.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rockoffee"
+  ],
+  "author": "Mohamad Adithya",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.0.0-beta2",
+    "bootstrap-icons": "^1.4.0"
+  }
+}

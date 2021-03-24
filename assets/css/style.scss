@@ -1,0 +1,81 @@
+:root {
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 79px;
+    overflow-x: hidden;
+}
+
+// Navbar
+.navbar {
+    .navbar-brand {
+        font-family: 'Permanent Marker', serif;
+        font-size: 2rem;
+    }
+
+    .nav-item {
+        margin-left: 0;
+
+        .btn-signup {
+            border-radius: 20px;
+        }
+    }
+}
+
+// Jumbotron
+
+.jumbotron {
+    height: 60vh;
+    background-image: url(/assets/images/carousel-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 2px 1px rgba($color: #000000, $alpha: 0.8);
+
+    & .btn {
+        text-shadow: none;
+        transition: .5s ease;
+
+        &:hover {
+            transform: translateX(5px);
+        }
+    }
+}
+
+// Features
+
+section#features {
+    #feature-icon {
+        font-size: 3rem;
+    }
+}
+
+// Testimonials
+section#testimonials {
+    .test-card {
+        border: 1px solid #D1CDC9;
+        border-radius: 5px;
+        padding: 2em;
+    }
+}
+
+footer {
+    border-top: 1px solid rgba($color: #000000, $alpha: 0.5);
+
+    #contact-icon {
+        margin-right: 0.5em;
+    }
+}
+
+// Desktop Version
+@media (min-width: 992px) {
+    .navbar {
+        .nav-item {
+            margin-left: 1.5em;
+        }
+    }
+}
